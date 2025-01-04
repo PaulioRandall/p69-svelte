@@ -4,7 +4,7 @@
 
 # P69 Svelte
 
-Svelte preprocessor for **P69**.
+Svelte preprocessor for **P69** (includes **P69 Files**).
 
 - **P69**: https://github.com/PaulioRandall/p69
 - **P69 Files**: https://github.com/PaulioRandall/p69-files
