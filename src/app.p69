@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	border: 0 solid transparent;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	color: $color.text;
+	font-size: $font.size.md;
+	font-family: $font.family.verdana;
+	background-color: $color.bg;
+
+	text-size-adjust: 100%;
+	tab-size: 2;
+}
+
+h1 {
+	color: $color.strong;
+}

@@ -1,4 +1,6 @@
 .DS_Store
 node_modules
-**/testdata/**/*.css
-!**/testdata/**/other.css
+/build
+/.svelte-kit
+/package
+app.css
