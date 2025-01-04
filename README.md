@@ -1,14 +1,15 @@
 ![Made to be Plundered](https://img.shields.io/badge/Made%20to%20be%20Plundered-royalblue)
-[![Latest version](https://img.shields.io/github/v/release/PaulioRandall/p69)](https://github.com/PaulioRandall/p69/releases)
-[![Release date](https://img.shields.io/github/release-date/PaulioRandall/p69)](https://github.com/PaulioRandall/p69/releases)
+[![Latest version](https://img.shields.io/github/v/release/PaulioRandall/p69-svelte)](https://github.com/PaulioRandall/p69-svelte/releases)
+[![Release date](https://img.shields.io/github/release-date/PaulioRandall/p69-svelte)](https://github.com/PaulioRandall/p69-svelte/releases)
 
-# P69
+# P69 Svelte
 
-**P69** enables use of compile time tokens within CSS for Node based projects.
+Svelte preprocessor for **P69**.
 
-It's just a glorified `string.replace`, i.e. it scans CSS for placeholder tokens which are substituted for user defined values.
-
-Just create an object containing your tokens. You can nest as you please. There are no standards or conventions on how one should organise their tokens. Just keep it simple and do what works, not what everyone else is doing!
+- **P69**: https://github.com/PaulioRandall/p69
+- **P69 Files**: https://github.com/PaulioRandall/p69-files
+- **P69 Svelte**: https://github.com/PaulioRandall/p69-svelte
+- **P69 Util**: https://github.com/PaulioRandall/p69-util
 
 ## For example
 
