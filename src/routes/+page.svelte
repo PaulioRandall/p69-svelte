@@ -8,7 +8,8 @@
 
 		<section>
 			<h2>A heading</h2>
-			<p>A paragraph...</p>
+			<p>A blue rectangle...</p>
+			<div class="square" />
 		</section>
 	</main>
 </div>
@@ -23,6 +24,12 @@
 	}
 
 	main {
-		/* margin: $space.lg; */
+		padding: $space.sm;
+	}
+
+	.square {
+		background: $color.strong;
+		max-width: $width.min;
+		height: 64px;
 	}
 </style>

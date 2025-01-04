@@ -20,4 +20,9 @@ body {
 
 h1 {
 	color: $color.strong;
+	font-size: $font.size.3xl;
+}
+
+h2 {
+	font-size: $font.size.xl;
 }
