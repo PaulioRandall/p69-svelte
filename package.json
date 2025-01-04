@@ -28,7 +28,6 @@
 		"debug": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
 		"commit": "npm run fmt && npm run test && cat ./scripts/ready-to-ship.txt",
 		"================================================================": "",
-		"build": "vite build",
 		"dev": "vite dev --port 3000"
 	},
 	"devDependencies": {
