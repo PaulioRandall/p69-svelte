@@ -4,7 +4,7 @@
 	"description": "Injects compile time tokens into Svelte components CSS styles",
 	"type": "module",
 	"license": "MIT",
-	"version": "1.0.0-rc-2",
+	"version": "1.0.0-rc-3",
 	"engines": {
 		"node": ">=18"
 	},
@@ -32,13 +32,13 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "3.3.1",
-		"@sveltejs/kit": "2.15.1",
+		"@sveltejs/kit": "2.15.2",
 		"jest": "29.7.0",
 		"prettier": "3.4.2",
-		"svelte": "5.16.1",
+		"svelte": "5.16.5",
 		"vite": "6.0.7"
 	},
 	"dependencies": {
-		"@paulio/p69-files": "^1.0.0-rc-2"
+		"@paulio/p69-files": "^1.0.0-rc-3"
 	}
 }
