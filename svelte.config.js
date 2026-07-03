@@ -1,14 +1,6 @@
-import adapter from '@sveltejs/adapter-auto'
 import path from 'path'
-
-import P69 from './lib/index.js'
-import tokens from './src/tokens.js'
-
-if (process.env.NODE_ENV === 'development') {
-	P69.watch(tokens)
-} else {
-	await P69.files(tokens)
-}
+import adapter from '@sveltejs/adapter-auto'
+import P69Svelte from './lib/index.js'
 
 export default {
 	kit: {
@@ -17,5 +9,7 @@ export default {
 			//$routes: path.resolve('./src/routes'),
 		},
 	},
-	preprocess: [P69.svelte(tokens)],
+	preprocess: [
+		P69Svelte(path.resolve('./src/tokens.js')) //
+	],
 }
