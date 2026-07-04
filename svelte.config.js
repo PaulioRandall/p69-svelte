@@ -10,6 +10,6 @@ export default {
 		},
 	},
 	preprocess: [
-		P69Svelte(path.resolve('./src/tokens.js')) //
+		P69Svelte(path.resolve('./src/tokens.js')), //
 	],
 }
