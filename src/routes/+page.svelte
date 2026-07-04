@@ -29,7 +29,7 @@
 
 	.square {
 		background: $color.strong;
-		max-width: $width.min;
 		height: 64px;
+		width: 64px;
 	}
 </style>
