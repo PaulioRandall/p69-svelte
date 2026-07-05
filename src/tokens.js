@@ -1,4 +1,4 @@
-const rgbs = {
+const colors = {
 	ice_cream: [250, 250, 250],
 	light_sky_purple: [210, 210, 230],
 	very_light_sky_blue: [231, 245, 255],
@@ -15,9 +15,9 @@ const rgbToCSS = (rgb) => `rgb(${rgb})`
 
 export default {
 	color: {
-		bg: rgbToCSS(rgbs.ice_cream),
-		text: rgbToCSS(rgbs.very_dark_grey),
-		strong: rgbToCSS(rgbs.jet_blue),
+		bg: rgbToCSS(colors.ice_cream),
+		text: rgbToCSS(colors.very_dark_grey),
+		strong: rgbToCSS(colors.jet_blue),
 	},
 	font: {
 		size: {
